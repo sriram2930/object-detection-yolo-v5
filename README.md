@@ -38,7 +38,9 @@ d.	Occluded: A flag indicating whether the object is partially occluded by anoth
    <img width="262" height="174" alt="image" src="https://github.com/user-attachments/assets/d5bad57a-6878-4888-a84c-958647390070" />
 
   In this project, we utilized the ESP32-CAM to capture video streams, which were then processed for real-time inference using the YOLO model.The ESP32-CAM is a microcontroller that integrates video capturing, making it both affordable and user friendly. This compact module features an OV2640 camera and a microSD card slot, enabling easy data storage and retrieval. Additionally, it includes an onboard LED for flash and multiple GPIOs for peripheral connectivity, making it ideal for many embedded applications.
+  
 2.	FTDI Programmer
+   
 <img width="209" height="139" alt="image" src="https://github.com/user-attachments/assets/26a650c0-9594-41a1-bdb0-4c37d23c5574" />
 
 We utilized an FTDI module in our project since it is crucial for uploading code to the ESP32-CAM, which does not feature a USB port for direct connection to a computer. The FTDI programmer functions as a USB-to-Serial adapter, converting USB signals from the computer into serial signals that the microcontroller can understand.
